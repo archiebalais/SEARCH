@@ -215,6 +215,7 @@ function finalRiddle() {
 
     button1.addEventListener('click', winScreen);
     button2.addEventListener('click', losingScreen);
+    button1.addEventListener('click', finalRiddle)
 }
 
 function winScreen() {
