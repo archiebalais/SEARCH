@@ -39,6 +39,8 @@ function start() {
     text.style = 'display: block';
     button2.style = 'display: block';
 
+    button1.removeEventListener('click', start)
+
     button1.addEventListener('click', replyOne);
     button2.addEventListener('click', replyOne);
 }
@@ -110,7 +112,8 @@ function giveBackSister() {
     button2.innerHTML = `Death?`
     button2.style = 'display: block';
     
-    button1.removeEventListener('click', giveBackSister);
+    button1.removeEventListener('click', callThePolice);
+    button2.removeEventListener('click', giveBackSister)
 
     button1.addEventListener('click', aSchool);
     button2.addEventListener('click', death);
@@ -138,7 +141,7 @@ function aSchool() {
     button2.style = 'display: block';
 
     button1.removeEventListener('click', aSchool);
-    button1.removeEventListener('click', death);
+    button2.removeEventListener('click', death);
 
     button1.addEventListener('click', youCrazy);
     button2.addEventListener('click', wantHerBack);
@@ -168,6 +171,7 @@ function wantHerBack() {
     button2.style = 'display: block';
     
     button1.removeEventListener('click', wantHerBack);
+    button2.removeEventListener('click', )
 
     button1.addEventListener('click', auditorium);
     button2.addEventListener('click', gym);
