@@ -167,11 +167,11 @@ function wantHerBack() {
 
     text.innerHTML = `Unknown ID: She's safe and sound somewhere locked in the abandoned school at Burnett St... Now where exactly do you think she is in the campus?`;
     button1.innerHTML = 'Auditorium?';
-    button2.innerHTML = 'Gym?';
+    button2.innerHTML = 'Gymnasium?';
     button2.style = 'display: block';
     
-    button1.removeEventListener('click', wantHerBack);
-    button2.removeEventListener('click', )
+    button1.removeEventListener('click', youCrazy)
+    button2.removeEventListener('click', wantHerBack)
 
     button1.addEventListener('click', auditorium);
     button2.addEventListener('click', gym);
@@ -187,7 +187,7 @@ function auditorium() {
 
     loseLife();
     button1.removeEventListener('click', auditorium);
-    button1.removeEventListener('click', gym);
+    button2.removeEventListener('click', gym);
 
     button1.addEventListener('click', gym)
 }
@@ -198,6 +198,9 @@ function gym() {
     text.innerHTML = 'Unknown ID: Now you know where she is... Now I have one last riddle for you. But be careful, if you get this wrong I promise you will never see her again.';
     button1.innerHTML = `Okay... what is it?`;
     button2.style = 'display: none';
+
+    button1.removeEventListener('click', auditorium)
+    button2.removeEventListener('click', gym)
 
     button1.addEventListener('click', finalRiddle);
 }
