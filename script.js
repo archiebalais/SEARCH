@@ -4,7 +4,7 @@ let button1 = document.getElementById('btn1');
 let button2 = document.getElementById('btn2');
 let image = document.getElementById('image');
 
-let count = 3;
+let count = 2;
 let playerLives = document.getElementById('player-lives');
 playerLives.innerHTML = count;
 
@@ -209,8 +209,8 @@ function finalRiddle() {
     console.log("Right");
 
     text.innerHTML = 'The foolish man wastes me, The average man spends me, And wise man invests me, Yet all men succumb to me. What am I?'
-    button1.innerHTML = 'Money';
-    button2.innerHTML = 'Time';
+    button1.innerHTML = 'Time';
+    button2.innerHTML = 'Money';
     button2.style = 'display: block';
 
     button1.addEventListener('click', winScreen);

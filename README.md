@@ -9,7 +9,7 @@
 To challenge the constranits of a text based game, because text based game can run the risk of being boring or monogamous I would like to attempt to create one that is both engaging and suspensful hence the mystery/thriller aspect aspect.
 
 ## ABOUT 
-The game begins with the nameless protagonist's little sister having gone missing. The protagonist then receives a text message from the sister's number.  Each message is followed by two actions that the player gets to choose. The game has two alternative endings: choosing the right actions will lead to the happy ending, in which the protagonist manages to locate and rescue the sister, while choosing the wrong actions would result in provoking the kidnapper into killing the sister.
+The game begins with the nameless protagonist's little sister having gone missing. The protagonist then receives a text message from an unknown ID.  Each message is followed by two actions that the player gets to choose. The game has two alternative endings: choosing the right actions will lead to the happy ending, in which the protagonist manages to locate and rescue the sister, while choosing the wrong actions would result in provoking the kidnapper into killing the sister.
 
 ## User Stories and Wireframes
  -Create an enter screen
