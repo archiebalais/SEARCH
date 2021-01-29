@@ -1,6 +1,7 @@
 ## SEARCH
 
-![img/enter.png]
+![enter](img/enter.png)
+![lossScreen](img/loss screen.png)
 
 
 
